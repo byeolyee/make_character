@@ -6,6 +6,7 @@ export const JOB={
     CARPENTER : "CARPENTER",
     COOK : "COOK",
     YOUTUBER : "YOUTUBER",
+    NURSE : "NURSE"
 };
 
 export const ABILITY = {
