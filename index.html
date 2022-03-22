@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-barun-pen.css" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <title>Character Customizing</title>
+    
+</head>
+<body>
+    <main class="container">
+        <div class="character-wrapper">
+
+            <div class="image-wrapper">
+                <img src="" alt="character-image" class="image"/>
+            </div>
+            
+            <div class="infos">
+                <div class="name">
+                    <div><span>▶</span>my name</div>
+                    <div>
+                        <input type="text" class="detail" placeholder="enter your name"/>
+                        <button class="action-button btn-name">click</button>
+                    </div>
+                </div>
+                <div class="hair">
+                    <div><span>▶</span>hair style</div>
+                    <input type="range" class="detail" min="0" max="2" value="0"/>
+                </div>
+                <div class="body">
+                    <div><span>▶</span>body type</div>
+                    <input type="range" class="detail" min="0" max="2" value="0"/>
+                </div>
+                <div class="job">
+                    <div><span>▶</span>job</div>
+                    <select class="select-job"></select>
+                    <button class="action-button btn-job">click</button>
+                </div>
+                <div class="ability">
+                    <div><span>▶</span>ability</div>
+                    <select class="select-ability"></select>
+                    <button class="action-button btn-ability">click</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="desc">
+            <p class="intro">설명</p>
+        </div>
+    </main>
+    <script type="module" src="./src/index.js"></script>
+</body>
+</html>
